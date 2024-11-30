@@ -1,0 +1,5 @@
+set title "Energy vs. Time for Sample Data"
+set xlabel "Time"
+set ylabel "Energy"
+plot "./data2plot.txt" using 1:2 t "ECC", "./data2plot.txt" using 1:3 t "BOB"
+
